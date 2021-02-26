@@ -4,7 +4,8 @@ def reverse_each_word(sentence)
   words = sentence.split(" ")
   reversed_sentence = []
   words.each do |word|
-    word.each do |letters|
+    reversed_word = ""
+    words[word].each do |letters|
       puts letters 
     end 
   end 
