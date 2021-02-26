@@ -7,7 +7,7 @@ def reverse_each_word(sentence)
     puts word 
     reversed_word = ""
     letters = word.split('')
-    word.each do |letter|
+    letters.each do |letter|
       puts letter
     end 
   end 
