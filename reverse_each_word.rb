@@ -8,7 +8,7 @@ def reverse_each_word(sentence)
     reversed_word = reversed_letters.join('')
     reversed_sentence << reversed_word 
   end 
-  reversed_sentence
+  reversed_sentence.join(" ")
 end 
 
 puts reverse_each_word("reverse the words") 
