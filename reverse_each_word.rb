@@ -11,5 +11,5 @@ def reverse_each_word(sentence)
   reversed_sentence
 end 
 
-reverse_each_word("reverse the words") 
+puts everse_each_word("reverse the words") 
 #esrever eht sdrow
