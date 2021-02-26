@@ -5,7 +5,7 @@ def reverse_each_word(sentence)
   reversed_sentence = []
   words.each do |word|
     word.reverse_each do |letters|
-      put letters 
+      puts letters 
     end 
   end 
 end 
